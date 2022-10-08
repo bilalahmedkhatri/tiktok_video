@@ -1,0 +1,529 @@
+{
+    "adAuthorization": false,
+    "adLabelVersion": 0,
+    "author": {
+        "avatarLarger": "https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/312601c5c7f8a4846fac3cda770f66a2.jpeg?x-expires=1665349200&x-signature=KjwcAeT7nz3PLTdhb4XT4LYW8og%3D",
+        "avatarMedium": "https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/312601c5c7f8a4846fac3cda770f66a2.jpeg?x-expires=1665349200&x-signature=bBPLFZ6eNaOeURL909dikzEUH0M%3D",
+        "avatarThumb": "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/312601c5c7f8a4846fac3cda770f66a2.jpeg?x-expires=1665349200&x-signature=d6jw53HbU5FccYvNlyCLjSY1sHw%3D",
+        "commentSetting": 3,
+        "downloadSetting": 3,
+        "duetSetting": 3,
+        "ftc": false,
+        "id": "6776899113549284357",
+        "isADVirtual": false,
+        "nickname": "ROOHULLAH",
+        "openFavorite": true,
+        "privateAccount": false,
+        "relation": 0,
+        "secUid": "MS4wLjABAAAAJaIlv_Rur2NvXgKdHx20wkbmw6szwvWYoTjBqAKVnbftP07JecJEsdfO1N94Riju",
+        "secret": false,
+        "signature": "Insta:Roohullah_tareen",
+        "stitchSetting": 3,
+        "ttSeller": false,
+        "uniqueId": "roohullah_tareen",
+        "verified": false
+    },
+    "authorStats": {
+        "diggCount": 470,
+        "followerCount": 321600,
+        "followingCount": 287,
+        "heart": 5300000,
+        "heartCount": 5300000,
+        "videoCount": 178
+    },
+    "challenges": [
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "229207",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 1700000000,
+                "viewCount": 0
+            },
+            "title": "fyp"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "42164",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 1300000000,
+                "viewCount": 0
+            },
+            "title": "foryou"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "4374",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 1300000,
+                "viewCount": 0
+            },
+            "title": "boss"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "34380",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 157800,
+                "viewCount": 0
+            },
+            "title": "leader"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "6408502",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 5437,
+                "viewCount": 0
+            },
+            "title": "greatleader"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "151602",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 28700000,
+                "viewCount": 0
+            },
+            "title": "goviral"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "129773",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 20500,
+                "viewCount": 0
+            },
+            "title": "1minute"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "17797",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 1500000,
+                "viewCount": 0
+            },
+            "title": "english"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "20105",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 199800000,
+                "viewCount": 0
+            },
+            "title": "trending"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "\ud83c\uddea\ud83c\uddfa\u2b50\ud83c\uddea\ud83c\uddfa\u2b50\ud83c\uddea\ud83c\uddfa\u2b50\ud83c\uddea\ud83c\uddfa\u2b50\ud83c\uddea\ud83c\uddfa",
+            "id": "2866",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 4400000,
+                "viewCount": 0
+            },
+            "title": "europe"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "9843",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 6700000,
+                "viewCount": 0
+            },
+            "title": "usa"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "6122",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 4400000,
+                "viewCount": 0
+            },
+            "title": "work"
+        },
+        {
+            "coverLarger": "",
+            "coverMedium": "",
+            "coverThumb": "",
+            "desc": "",
+            "id": "14568",
+            "isCommerce": false,
+            "profileLarger": "",
+            "profileMedium": "",
+            "profileThumb": "",
+            "stats": {
+                "videoCount": 914400,
+                "viewCount": 0
+            },
+            "title": "success"
+        }
+    ],
+    "createTime": 1586810236,
+    "desc": "And Always Be Leader Not Boss\u2764 #fyp #foryou #boss #leader #greatleader #smile #goviral #1minute #english #trending #europe #usa #work #success",
+    "digged": false,
+    "duetDisplay": 0,
+    "duetEnabled": true,
+    "duetInfo": {
+        "duetFromId": "0"
+    },
+    "forFriend": false,
+    "id": "6815298064023145734",
+    "isActivityItem": false,
+    "isAd": false,
+    "itemCommentStatus": 3,
+    "itemMute": false,
+    "music": {
+        "album": "",
+        "authorName": "ROOHULLAH",
+        "coverLarge": "https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/312601c5c7f8a4846fac3cda770f66a2.jpeg?x-expires=1665349200&x-signature=KjwcAeT7nz3PLTdhb4XT4LYW8og%3D",
+        "coverMedium": "https://p16-sign-sg.tiktokcdn.com/aweme/720x720/tos-alisg-avt-0068/312601c5c7f8a4846fac3cda770f66a2.jpeg?x-expires=1665349200&x-signature=bBPLFZ6eNaOeURL909dikzEUH0M%3D",
+        "coverThumb": "https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/312601c5c7f8a4846fac3cda770f66a2.jpeg?x-expires=1665349200&x-signature=d6jw53HbU5FccYvNlyCLjSY1sHw%3D",
+        "duration": 48,
+        "id": "6815293020565539590",
+        "original": true,
+        "playUrl": "https://sf16-ies-music-va.tiktokcdn.com/obj/musically-maliva-obj/1663889995963397.mp3",
+        "title": "original sound"
+    },
+    "officalItem": false,
+    "originalItem": false,
+    "privateItem": false,
+    "secret": false,
+    "shareEnabled": true,
+    "showNotPass": false,
+    "stats": {
+        "commentCount": 0,
+        "diggCount": 4300000,
+        "playCount": 24100000,
+        "shareCount": 74300
+    },
+    "stickersOnItem": [
+        {
+            "stickerText": [
+                "LEADER",
+                "BOSS",
+                "Difference Between"
+            ],
+            "stickerType": 4
+        }
+    ],
+    "stitchDisplay": 0,
+    "stitchEnabled": true,
+    "textExtra": [
+        {
+            "awemeId": "",
+            "end": 35,
+            "hashtagId": "229207",
+            "hashtagName": "fyp",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 31,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 43,
+            "hashtagId": "42164",
+            "hashtagName": "foryou",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 36,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 49,
+            "hashtagId": "4374",
+            "hashtagName": "boss",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 44,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 57,
+            "hashtagId": "34380",
+            "hashtagName": "leader",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 50,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 70,
+            "hashtagId": "6408502",
+            "hashtagName": "greatleader",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 58,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 77,
+            "hashtagId": "",
+            "hashtagName": "smile",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 71,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 86,
+            "hashtagId": "151602",
+            "hashtagName": "goviral",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 78,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 95,
+            "hashtagId": "129773",
+            "hashtagName": "1minute",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 87,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 104,
+            "hashtagId": "17797",
+            "hashtagName": "english",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 96,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 114,
+            "hashtagId": "20105",
+            "hashtagName": "trending",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 105,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 122,
+            "hashtagId": "2866",
+            "hashtagName": "europe",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 115,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 127,
+            "hashtagId": "9843",
+            "hashtagName": "usa",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 123,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 133,
+            "hashtagId": "6122",
+            "hashtagName": "work",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 128,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        },
+        {
+            "awemeId": "",
+            "end": 142,
+            "hashtagId": "14568",
+            "hashtagName": "success",
+            "isCommerce": false,
+            "secUid": "",
+            "start": 134,
+            "subType": 0,
+            "type": 1,
+            "userId": "",
+            "userUniqueId": ""
+        }
+    ],
+    "video": {
+        "bitrate": 362790,
+        "bitrateInfo": [
+            {
+                "Bitrate": 362790,
+                "CodecType": "h264",
+                "GearName": "normal_720_0",
+                "PlayAddr": {
+                    "DataSize": 2200777,
+                    "FileHash": "8f40f18e926517a8c2f023ba81d78ee3",
+                    "Uri": "v090447a0000bqacq87f90dfbeu65br0",
+                    "UrlKey": "v090447a0000bqacq87f90dfbeu65br0_h264_720p_362790",
+                    "UrlList": [
+                        "https://v16-webapp.tiktok.com/dd633b979b9835e70448250e2b7f35a5/6340f0c0/video/tos/useast2a/tos-useast2a-ve-0068c004/b467d6126d5a41488158e37e4b30a8bb/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=708&bt=354&cs=0&ds=3&ft=eXd.6HKVMyq8ZhWsWhe2NbvTyl7Gb&mime_type=video_mp4&qs=0&rc=OmVnNWU1Mzw8M2g5ODhlaUBpM2U5aGkzaTtmdDMzZDczM0AzLV8yXzMvNWIxLy0uNTYyYSNvMnJfYTY0bl5fLS00MTZzcw%3D%3D&l=202210072137520102170940911E0ACAF6&btag=80000",
+                        "https://v16-webapp.tiktok.com/dd633b979b9835e70448250e2b7f35a5/6340f0c0/video/tos/useast2a/tos-useast2a-ve-0068c004/b467d6126d5a41488158e37e4b30a8bb/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=708&bt=354&cs=0&ds=3&ft=eXd.6HKVMyq8ZhWsWhe2NbvTyl7Gb&mime_type=video_mp4&qs=0&rc=OmVnNWU1Mzw8M2g5ODhlaUBpM2U5aGkzaTtmdDMzZDczM0AzLV8yXzMvNWIxLy0uNTYyYSNvMnJfYTY0bl5fLS00MTZzcw%3D%3D&l=202210072137520102170940911E0ACAF6&btag=80000"
+                    ]
+                },
+                "QualityType": 10
+            }
+        ],
+        "codecType": "h264",
+        "cover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/0b4553a8c4ea4146bad255fd2679d4d3_1586810243?x-expires=1665198000&x-signature=NtRiLHBw6gxU6mbPdE1V6LDQ7iI%3D",
+        "definition": "720p",
+        "downloadAddr": "https://v16-webapp.tiktok.com/dd633b979b9835e70448250e2b7f35a5/6340f0c0/video/tos/useast2a/tos-useast2a-ve-0068c004/b467d6126d5a41488158e37e4b30a8bb/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=708&bt=354&cs=0&ds=3&ft=eXd.6HKVMyq8ZhWsWhe2NbvTyl7Gb&mime_type=video_mp4&qs=0&rc=OmVnNWU1Mzw8M2g5ODhlaUBpM2U5aGkzaTtmdDMzZDczM0AzLV8yXzMvNWIxLy0uNTYyYSNvMnJfYTY0bl5fLS00MTZzcw%3D%3D&l=202210072137520102170940911E0ACAF6&btag=80000",
+        "duration": 48,
+        "dynamicCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/3b1e743aca654579867379d1f1bb8ebb_1586810245?x-expires=1665198000&x-signature=2TD7BsmBany5pWnd2Qxy6YGjgwY%3D",
+        "encodeUserTag": "",
+        "encodedType": "normal",
+        "format": "mp4",
+        "height": 1024,
+        "id": "6815298064023145734",
+        "originCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/b2f013f142d045cf83f4a6fbaf489579_1586810245?x-expires=1665198000&x-signature=VGs%2BW0BIpJRrfkkBgZ9FPk2cfh8%3D",
+        "playAddr": "https://v16-webapp.tiktok.com/dd633b979b9835e70448250e2b7f35a5/6340f0c0/video/tos/useast2a/tos-useast2a-ve-0068c004/b467d6126d5a41488158e37e4b30a8bb/?a=1988&ch=0&cr=0&dr=0&lr=tiktok_m&cd=0%7C0%7C1%7C0&cv=1&br=708&bt=354&cs=0&ds=3&ft=eXd.6HKVMyq8ZhWsWhe2NbvTyl7Gb&mime_type=video_mp4&qs=0&rc=OmVnNWU1Mzw8M2g5ODhlaUBpM2U5aGkzaTtmdDMzZDczM0AzLV8yXzMvNWIxLy0uNTYyYSNvMnJfYTY0bl5fLS00MTZzcw%3D%3D&l=202210072137520102170940911E0ACAF6&btag=80000",
+        "ratio": "720p",
+        "reflowCover": "https://p16-sign-va.tiktokcdn.com/obj/tos-maliva-p-0068/0b4553a8c4ea4146bad255fd2679d4d3_1586810243?x-expires=1665198000&x-signature=NtRiLHBw6gxU6mbPdE1V6LDQ7iI%3D",
+        "shareCover": [
+            "",
+            "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/b2f013f142d045cf83f4a6fbaf489579_1586810245~tplv-tiktok-play.jpeg?x-expires=1665781200&x-signature=i24UKXJ1kEK7K3ZBjNbFDgHgz3I%3D",
+            "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/b2f013f142d045cf83f4a6fbaf489579_1586810245~tplv-tiktokx-share-play.jpeg?x-expires=1665781200&x-signature=IYaXksgNJ1SNmqmOEidnDMG12zg%3D"
+        ],
+        "videoQuality": "normal",
+        "volumeInfo": {},
+        "width": 576,
+        "zoomCover": {
+            "240": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/0b4553a8c4ea4146bad255fd2679d4d3_1586810243~tplv-f5insbecw7-1:240:240.jpeg?x-expires=1665198000&x-signature=9iBQ4fGjl3WEHCcoBcatWlN5m%2B0%3D",
+            "480": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/0b4553a8c4ea4146bad255fd2679d4d3_1586810243~tplv-f5insbecw7-1:480:480.jpeg?x-expires=1665198000&x-signature=VJNyEula2BnC0nh6gfgnyo%2FpJ%2B8%3D",
+            "720": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/0b4553a8c4ea4146bad255fd2679d4d3_1586810243~tplv-f5insbecw7-1:720:720.jpeg?x-expires=1665198000&x-signature=yZuFOC5yMyCjJ%2BVZTy5gkzWPnHM%3D",
+            "960": "https://p16-sign-va.tiktokcdn.com/tos-maliva-p-0068/0b4553a8c4ea4146bad255fd2679d4d3_1586810243~tplv-f5insbecw7-1:960:960.jpeg?x-expires=1665198000&x-signature=3b7ur01bR11qrtwDeMmXTnj4aMk%3D"
+        }
+    },
+    "vl1": false
+}
