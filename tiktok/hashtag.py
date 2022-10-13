@@ -1,3 +1,4 @@
+from multiprocessing import AuthenticationError
 from TikTokApi import TikTokApi
 import random
 import string
@@ -32,11 +33,10 @@ def save_hashtag():
         json_v = v.as_dict
         for hashtag in json_v['textExtra']:
             auto_generate_hashtag.append(hashtag['hashtagName'])
-    
-    print(auto_generate_hashtag)
-    header = ['name',]
-    add_data(header, auto_generate_hashtag, 'test_hashtag')
-    print('hashtags are saved ')
+            
+    # database arguments
+    table_name, header = 'test_hashtag', ['name',]
+    add_data(header, auto_generate_hashtag, table_name)
 
 save_hashtag()
 

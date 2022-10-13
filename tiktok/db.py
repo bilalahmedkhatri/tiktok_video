@@ -22,9 +22,33 @@ def create_connection(sqlite_file=None):
             error.args[0]
         )
 
+def create_table(header, db_name, file_name=None):
+    
+    # for initial storage
+    c_db_header = ""
+    len_for_comma = 1
+    conn = create_connection(file_name)
+    c = conn.cursor()
 
+    # for insert columns
+    for c_header in header:
+        if len(header) != len_for_comma:
+            c_db_header += f"'{c_header}'" + ", "
+        else:
+            c_db_header += c_header  
+        len_for_comma += 1
+    try:
+        c.execute(f"""CREATE TABLE {db_name}({c_db_header})""")
+        print(f'new table {db_name} created')
+    except sqlite3.OperationalError as e:
+        raise e
+
+    conn.commit()
+    conn.close()
+    
 def add_data(header, tiktok_data, db_name, file_name=None):
     
+    # for initial storage
     c_db_header = ""
     i_db_header = ""
     len_for_comma = 1
@@ -63,8 +87,6 @@ def add_data(header, tiktok_data, db_name, file_name=None):
     conn.commit()
     conn.close()
 
-
-
 def single_search(header, search_data, db_name, file_name=""):
     conn = create_connection(file_name)
     c = conn.cursor()
@@ -87,7 +109,6 @@ def remove_rows(db_name, file_name=None):
     conn.close()
     print('closed')
     
-    
 def drop_table(db_name, file_name=None):
     conn = create_connection(file_name)
     c = conn.cursor()
@@ -106,6 +127,7 @@ table_row = [
     'Age int',
 ]
 
-print(add_data(['name',], dd, 'test_hashtag'))
-# print(drop_table('test_hashtag'))
+print(create_table(table_row, 'new_table1'))
+# print(add_data(['name',], dd, 'test_hashtag'))
+# print(drop_table('new_table5'))
 # print(remove_rows('test_hashtag'))
