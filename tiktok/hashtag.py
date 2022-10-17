@@ -1,8 +1,7 @@
-from multiprocessing import AuthenticationError
 from TikTokApi import TikTokApi
 import random
 import string
-from db import add_data
+from db import insert_data
 
 
 def download_video(video_id, file_format=None):
@@ -21,22 +20,26 @@ def hashtag():
 
 
 def save_hashtag():
+    
+    # Database info
+    header = ['hashtag', 'count_hashtag', 'created_at',]
+    auto_generate_hashtag = []
+    table_name = "video_editor_hashtag"
+    
     # Initlize tiktok API
     api = TikTokApi()
     
     # create empty list
-    auto_generate_hashtag = []
-
-    tag = api.hashtag(name="trending")
+    tag = api.hashtag(name="pubg")
 
     for v in tag.videos(count=10):
         json_v = v.as_dict
         for hashtag in json_v['textExtra']:
             auto_generate_hashtag.append(hashtag['hashtagName'])
-            
+    
+    print(len(auto_generate_hashtag), auto_generate_hashtag)
     # database arguments
-    table_name, header = 'test_hashtag', ['name',]
-    add_data(header, auto_generate_hashtag, table_name)
+    insert_data(header, auto_generate_hashtag, table_name)
 
 save_hashtag()
 

@@ -17,14 +17,21 @@ from django.contrib import admin
 from django.urls import path, include
 
 from rest_framework import routers
-from video_editor.views import TodoView
+from video_editor.views import TodoView, save_hashTags, hash_tag
 
 
-router = routers.DefaultRouter()
+router = routers.SimpleRouter()
 
 router.register(r'todo', TodoView)
+# router.register(r'run', save_hashTags, basename="hashtag")
+# router.register(r'run-test', HashTagsView)
+# router.register(r'run', HashTagsView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(router.urls))
+    path('', include(router.urls)),
+    # path('run/', hello_world, name='hashtag'),
+    path('run/', save_hashTags, name='hashtag'),
+    path('run2/', hash_tag, name='hashtag'),
+    # path('', include(video_editor.urls)),
 ]
