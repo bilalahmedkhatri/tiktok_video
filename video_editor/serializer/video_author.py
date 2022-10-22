@@ -1,11 +1,11 @@
 from dataclasses import fields
 from select import select
-from video_editor.models import VideoOwner
+from video_editor.models import VideoAuthor
 from rest_framework import serializers
 
 
-class OwnerSerializers(serializers.ModelSerializer):
+class AuthorSerializers(serializers.ModelSerializer):
     
     class Meta:
-        model = VideoOwner
+        model = VideoAuthor
         fields = ['id', 'owner_id', 'name', 'total_videos', 'created_at', 'updated_at']

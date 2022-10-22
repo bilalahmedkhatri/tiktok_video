@@ -12,16 +12,15 @@ from rest_framework.decorators import permission_classes
 from video_editor.serializer.todo import TodoSerializer
 from video_editor.serializer.hashtag import HashTagSerializers
 from video_editor.serializer.video_id import VideoSerializers
-from video_editor.serializer.video_owner import OwnerSerializers
+from video_editor.serializer.video_author import AuthorSerializers
 
 # models
-from video_editor.models import VideoOwner
+from video_editor.models import VideoAuthor
 from video_editor.models import VideoID
 from video_editor.models import HashTag
 from video_editor.models import Todo
 
 # default python packages
-import os
 from subprocess import call
 
 
@@ -58,9 +57,6 @@ def save_hashTags(request):
 def hash_tag(request):
     queryset = HashTag.objects.all()
     serializer_class = HashTagSerializers(queryset, many=True)
-    # b = save_hashtag()
-    b = on_connect()
-    print('bilal', b)
     return Response(serializer_class.data)
 
 

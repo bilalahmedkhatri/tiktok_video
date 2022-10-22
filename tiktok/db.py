@@ -82,7 +82,7 @@ def get_data(header, db_name):
         c.execute(f"""
             SELECT {str(header[0])}, {str(header[1])} FROM {db_name}
             WHERE {str(header[3])} IS NULL
-            limit 5;
+            limit 50;
             """)
         top_hashtags_1 = c.fetchall()
         if c.rowcount >= 1:

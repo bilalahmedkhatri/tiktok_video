@@ -35,6 +35,8 @@ INSTALLED_APPS = [
     "corsheaders",
     'rest_framework',
     'TikTokApi',
+    'django_extensions',
+    'django_crontab',
 
     # Apps
     'video_editor.apps.VideoEditorConfig',
@@ -168,4 +170,10 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 2,
 }
+
+CRONJOBS = [
+    ('*/10 * * * *', 'video_editor.cron.cron_hashtags')
+    # ('*/5 * * * *', 'video_editor.management.commands.save_hashtag')
+]
+
 

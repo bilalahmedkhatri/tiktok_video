@@ -22,10 +22,13 @@ class Todo(models.Model):
         return self.first_name
 
 
-class VideoOwner(models.Model):
-    owner_id = models.BigIntegerField(unique=True)
-    name = models.CharField(max_length=256, null=True, blank=True)
-    total_videos = models.IntegerField()
+class VideoAuthor(models.Model):
+    author_id = models.BigIntegerField(unique=True)
+    name = models.CharField(max_length=150, null=True, blank=True)
+    instagram_acc = models.CharField(max_length=100, null=True, blank=True)
+    total_videos = models.IntegerField(null=True, blank=True)
+    count_videos = models.IntegerField(null=True, blank=True)
+    followers = models.IntegerField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     updated_at = models.DateTimeField(auto_now=True, null=True, blank=True)
     
@@ -48,8 +51,11 @@ class HashTag(models.Model):
     
 class VideoID(models.Model):
     video_id = models.BigIntegerField(unique=True)
-    video_hashtags = models.ForeignKey(HashTag, verbose_name="Video tags", on_delete=models.CASCADE)
-    owner_id = models.ForeignKey(VideoOwner, verbose_name="Video Onwer", on_delete=models.CASCADE)
+    # video_hashtags_id = models.ForeignKey(HashTag, verbose_name="Video tags", on_delete=models.CASCADE, null=True, blank=True)
+    # es ko baad m charfield ForeignKey m change krna hai
+    video_hashtags = models.CharField(verbose_name="Video tags", max_length=600, null=True, blank=True)
+    author_id = models.ForeignKey(VideoAuthor, verbose_name="Author", on_delete=models.CASCADE, null=True, blank=True)
+    len_hashtags = models.IntegerField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True, null=True, blank=True)
     updated_at = models.DateTimeField(auto_now=True, null=True, blank=True)
     
