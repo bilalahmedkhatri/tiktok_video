@@ -45,10 +45,6 @@ def hello_world(request):
 def save_hashTags(request):
     queryset = HashTag.objects.all()
     serializer_class = HashTagSerializers(queryset, many=True)
-    x = os.getcwd()+"\\video_editor\hashtag.py"
-    # x = os.getcwd()+"\\tiktok\hashtag.py"
-    call(["py", x])
-    # Popen(['gnome-terminal', '-e', 'echo "Hello World"'], stdout=PIPE)
     return Response(serializer_class.data)
 
 
