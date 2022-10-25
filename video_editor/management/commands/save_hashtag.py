@@ -4,7 +4,6 @@ from django.core.management.base import BaseCommand
 from TikTokApi import TikTokApi
 from video_editor.models import HashTag, VideoID, VideoAuthor
 
-from django_cron import CronJobBase, Schedule
 
 class Command(BaseCommand):
     help = "Get TIKTOK data for download videos."
@@ -43,11 +42,15 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         get_hashtag = HashTag.objects.values('hashtag').order_by('-updated_at')[:10]
+        self.stdout.write(f'get hashtag from database {get_hashtag}')
+        # loop for update there time for future use.
         for x in get_hashtag:
-            b = HashTag.objects.filter(hashtag=x['hashtag']).update(updated_at=timezone.now())
-        random_hashtag = random.choice(get_hashtag)
+            HashTag.objects.filter(hashtag=x['hashtag']).update(updated_at=timezone.now())
+            print(f"---> datetime update {x['hashtag']}")
+        random_hashtag = random.choice(get_hashtag)['hashtag']
+        print(random_hashtag)
         with TikTokApi() as API:
-            for api in API.hashtag(random_hashtag['hashtag']).videos(count=45):
+            for api in API.hashtag(random_hashtag).videos(count=45):
                 hashtags = []
                 api_dict = api.as_dict
                 for hashtag in api_dict['textExtra']:

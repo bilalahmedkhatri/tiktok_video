@@ -1,14 +1,6 @@
-from contextlib import nullcontext
-from email.headerregistry import UniqueSingleAddressHeader
-from email.policy import default
-from enum import unique
-from importlib.util import set_loader
-from pyexpat import model
-from statistics import mode
-from tkinter.tix import Tree
-from turtle import update
-from unittest.util import _MAX_LENGTH
+import imp
 from django.db import models
+from django.template.defaultfilters import truncatechars
 
 # Create your models here.
 
@@ -34,6 +26,14 @@ class VideoAuthor(models.Model):
     
     def __str__(self) -> str:
         return self.name
+    
+    @property
+    def short_name(self):
+        return truncatechars(self.name, 10)
+    
+    @property
+    def short_author_id(self):
+        return truncatechars(self.author_id, 12)
 
 
 class HashTag(models.Model):
@@ -62,5 +62,12 @@ class VideoID(models.Model):
     def __int__(self) -> int:
         return self.video_id
     
+    @property
+    def short_video_id(self):
+        return truncatechars(self.video_id, 12)
+    
+    @property
+    def short_video_hashtags(self):
+        return truncatechars(self.video_hashtags, 20)
     
     
