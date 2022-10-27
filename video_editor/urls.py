@@ -1,15 +1,9 @@
-from argparse import Namespace
-from django.urls import path, include
-from video_editor.views import TodoView, test_index, HashTagsView
-from rest_framework import routers
-
-router = routers.DefaultRouter()
-router.register(r'run-test', HashTagsView, basename='hashtagview')
-
+from django.urls import path
+from video_editor.views import TodoView
+from video_editor.views import hello_world
+from video_editor.views import get_hashTags
 
 urlpatterns = [
-    # path('', test_index, name="test-index"),
-    
-    # DRF login Logout more info check (" https://www.django-rest-framework.org/#installation ")
-    path('', include(router.urls))
+    path('hello-world/', hello_world, name='world'),
+    path('hashtag/', get_hashTags, name='hashtag'),
 ]

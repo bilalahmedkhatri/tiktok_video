@@ -31,6 +31,8 @@ def test_index(requests):
 class TodoView(viewsets.ModelViewSet):
     serializer_class = TodoSerializer
     queryset = Todo.objects.all()
+    x = viewsets
+    print(dir(x))
     # permission_class = [permissions.AllowAny]
 
 
@@ -40,15 +42,15 @@ def hello_world(request):
     return Response({"message": "Hello, world!"})
 
 
-@api_view(['GET', ])
+@api_view(['GET'])
 @permission_classes((permissions.AllowAny,))
-def save_hashTags(request):
-    queryset = HashTag.objects.all()
+def get_hashTags(request):
+    queryset = HashTag.objects.all().order_by('id')[:10]
     serializer_class = HashTagSerializers(queryset, many=True)
     return Response(serializer_class.data)
 
 
-@api_view(['GET', ])
+@api_view(['GET'])
 @permission_classes((permissions.AllowAny,))
 def hash_tag(request):
     queryset = HashTag.objects.all()
@@ -56,3 +58,19 @@ def hash_tag(request):
     return Response(serializer_class.data)
 
 
+# only read data
+class HashTagReadOnlyModelViewSet(viewsets.ReadOnlyModelViewSet):
+    serializer_class = HashTagSerializers
+    queryset = HashTag.objects.all()
+    
+    
+# Just test for reouting porpuse
+class MenuViewSet(viewsets.ModelViewSet):
+    serializer_class = TodoSerializer
+
+    def get_queryset(self):
+        return Todo.objects.all()
+    
+    
+    def retrieve(self, request, *args, **kwargs):
+        return super().retrieve(request, *args, **kwargs)

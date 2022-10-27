@@ -1,37 +1,10 @@
-"""back_api URL Configuration
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/4.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-"""
 from django.contrib import admin
 from django.urls import path, include
+from video_editor.routers import router
 
-from rest_framework import routers
-from video_editor.views import TodoView, save_hashTags, hash_tag
-
-
-router = routers.SimpleRouter()
-
-router.register(r'todo', TodoView)
-# router.register(r'run', save_hashTags, basename="hashtag")
-# router.register(r'run-test', HashTagsView)
-# router.register(r'run', HashTagsView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include(router.urls)),
-    # path('run/', hello_world, name='hashtag'),
-    path('run/', save_hashTags, name='hashtag'),
-    path('run2/', hash_tag, name='hashtag'),
-    # path('', include(video_editor.urls)),
+    path('', include((router.urls, 'video_editor'), namespace='video_editor')),
+    path("", include('video_editor.urls'))
 ]
